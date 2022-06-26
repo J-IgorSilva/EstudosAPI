@@ -12,22 +12,22 @@ namespace CepApi
             {
                 var cepCliente = RestService.For<ICepApiService>("http://viacep.com.br/");
 
-                Console.WriteLine("Informe Seu CEP");
+                Console.WriteLine("Informe Seu CEP: ");
 
                 var cepInformado = Console.ReadLine().ToString();
 
-                Console.WriteLine("Consultando CEP informado" + cepInformado);
+                Console.WriteLine("Consultando CEP informado: " + cepInformado);
 
                 var address = await cepCliente.GetAddressAsync(cepInformado);
 
-                Console.Write($"\nLogradouro:{address.Logradouro},\nBairro{address.Bairro},\nEstado{address.Uf}");
+                Console.Write($"\nLogradouro: {address.Logradouro},\nBairro: {address.Bairro},\nEstado: {address.Uf}");
 
                 Console.ReadKey();
             }
             catch (Exception e)
             {
 
-                Console.WriteLine("Cep não Encontrado" + e.Message);
+                Console.WriteLine("Cep não Encontrado! " + e.Message);
             }
         }
     }
