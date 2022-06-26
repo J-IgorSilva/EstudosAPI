@@ -1,0 +1,17 @@
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\CepApi.exe
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\CepApi.deps.json
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\CepApi.runtimeconfig.json
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\CepApi.runtimeconfig.dev.json
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\CepApi.dll
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\CepApi.pdb
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.csproj.AssemblyReference.cache
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.AssemblyInfoInputs.cache
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.AssemblyInfo.cs
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.csproj.CoreCompileInputs.cache
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.dll
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.pdb
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.genruntimeconfig.cache
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\Refit.dll
+D:\CepApi\CepApi\obj\Debug\netcoreapp3.1\CepApi.csproj.CopyComplete
+D:\CepApi\CepApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
