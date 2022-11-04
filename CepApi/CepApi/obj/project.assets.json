@@ -271,11 +271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CepApi\\CepApi\\CepApi.csproj",
+      "projectUniqueName": "D:\\GITHUB\\EstudosAPI\\Estudos\\EstudosAPI\\CepApi\\CepApi\\CepApi.csproj",
       "projectName": "CepApi",
-      "projectPath": "D:\\CepApi\\CepApi\\CepApi.csproj",
+      "projectPath": "D:\\GITHUB\\EstudosAPI\\Estudos\\EstudosAPI\\CepApi\\CepApi\\CepApi.csproj",
       "packagesPath": "C:\\Users\\zeus8\\.nuget\\packages\\",
-      "outputPath": "D:\\CepApi\\CepApi\\obj\\",
+      "outputPath": "D:\\GITHUB\\EstudosAPI\\Estudos\\EstudosAPI\\CepApi\\CepApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zeus8\\AppData\\Roaming\\NuGet\\NuGet.Config",
