@@ -1,0 +1,11 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "accessibility.hideAccessibleView": false,
+    "editor.suggest.showStatusBar": true,
+    "debug.showSubSessionsInToolBar": false,
+    "workbench.statusBar.visible": false,
+    "zenMode.hideStatusBar": true,
+    "editor.lightbulb.experimental.showAiIcon": "on",
+    "explorer.compactFolders": true,
+    "explorer.fileNesting.enabled": true
+}
