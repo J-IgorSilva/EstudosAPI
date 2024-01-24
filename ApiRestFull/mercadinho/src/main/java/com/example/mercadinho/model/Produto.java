@@ -5,43 +5,35 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "produto")
 public class Produto {
-    //#region
+    // #region
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    private int id;
+    private Integer id;
 
     @Column(name = "nome")
     private String nome;
 
     @Column(name = "valor")
-    private double valor;
-    
+    private Double valor;
+
     @Column(name = "quantidade")
-    private int quantidade;
+    private Integer quantidade;
 
     @Column(name = "observacao")
     private String observacao;
-    //#endregion
+    // #endregion
 
-    //#regionGetSet
-    public Produto(int id, String nome, double valor, int quantidade, String observacao) {
-        this.id = id;
-        this.nome = nome;
-        this.valor = valor;
-        this.quantidade = quantidade;
-        this.observacao = observacao;
-    }
-    public int getId() {
+    // #regionGetSet
+   
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -53,19 +45,19 @@ public class Produto {
         this.nome = nome;
     }
 
-    public int getQuantidade() {
+    public Integer getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
 
-    public double getValor() {
+    public Double getValor() {
         return valor;
     }
 
-    public void setValor(double valor) {
+    public void setValor(Double valor) {
         this.valor = valor;
     }
 
@@ -76,5 +68,5 @@ public class Produto {
     public void setObservacao(String observacao) {
         this.observacao = observacao;
     }
-    //#endregionGetset
+    // #endregionGetset
 }
