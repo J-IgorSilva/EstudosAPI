@@ -12,7 +12,7 @@ import com.example.mercadinho.model.Exception.ResourceNotFoundException;
 @Repository
 public class ProdutoRepositoryold {
     private List<Produto> produtos = new ArrayList<Produto>();
-    private int ultimoId = 0;
+    private Integer ultimoId = 0;
 
     /**
      * Metodo para retornar uma lista de produtos
@@ -23,7 +23,7 @@ public class ProdutoRepositoryold {
         return produtos;
     }
 
-    public Optional<Produto> obteProdutoPorId(int id) {
+    public Optional<Produto> obteProdutoPorId(Integer id) {
         return produtos
                 .stream()
                 .filter(produto -> produto.getId() == id)
@@ -37,7 +37,7 @@ public class ProdutoRepositoryold {
         return produto;
     }
 
-    public void deletarPorId(int id) {
+    public void deletarPorId(Integer id) {
         produtos.removeIf(produto -> produto.getId() == id);
     }
 
