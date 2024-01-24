@@ -9,6 +9,16 @@
             "projectName": "primeiro-exemplo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MercadinhoApplication<mercadinho>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.mercadinho.MercadinhoApplication",
+            "projectName": "mercadinho",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
